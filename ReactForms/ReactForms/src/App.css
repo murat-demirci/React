@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS';
+}
+body,html{
+  margin: 0 25%;
+}
+
+.App{
+  width: 550px;
+}
+.task-form{
+  display: flex;
+  flex-direction: column;
+}
+.task-header{
+  text-align: center;
+}
+
+.task-header-label,.task-enter-label{
+  margin: 10px 0;
+  border-bottom: 1px ridge black;
+  border-radius: 6px;
+  text-align: center;
+}
+.task-header-input,.task-textarea{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btn-create{
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.btn-create:hover{
+  color: black;
+  background-color: rgba(0, 128, 0, 0.575);
+}
+.btn-update-clicked{
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid purple;
+  background-color: rgb(128, 0, 128);
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.task-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+.task-show{
+  border: 1px solid green;
+  border-radius: 30px;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task-show h3{
+  margin-bottom: 5px;
+}
+.task-show p{
+  margin-top: 5px;
+}
+.btn-delete,.btn-update{
+  padding: 5px;
+  font-size: 15px;
+  width: 80px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.btn-delete{
+  background-color: red;
+}
+.btn-update{
+  background-color: blue;
+}

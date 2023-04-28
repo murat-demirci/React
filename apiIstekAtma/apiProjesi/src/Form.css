@@ -1,0 +1,25 @@
+* {
+    font-size: Japanese;
+    font-size: 20px;
+}
+
+.formElement {
+    display: flex;
+    flex-direction: column;
+}
+
+.formElement label {
+    text-align: center;
+    padding: 10px;
+}
+
+.formElement input {
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.formElement input:focus {
+    border: 1px solid blue;
+}

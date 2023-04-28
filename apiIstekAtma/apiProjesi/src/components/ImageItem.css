@@ -1,0 +1,8 @@
+.imagesDiv{
+    columns:250px 5;
+    column-gap: 10px;
+    padding: 10px;
+}
+.imageItem{
+    width: 100%;
+}
