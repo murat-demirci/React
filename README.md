@@ -1,5 +1,24 @@
 
-<head><meta charset="utf-8"><link rel="stylesheet" href="./styles.css"></head><body class="light-theme blue_sky" style="padding: 20px;"><div class="shine-editor"><h1>React Notes</h1><h1>1. Kurulum</h1><div>Yeni güncelleme ile "create react app" kısmı değişiyor.</div>
+<head><meta charset="utf-8"><link rel="stylesheet" href="./styles.css"></head><body class="light-theme blue_sky" style="padding: 20px;"><div class="shine-editor"><h1>React Notes</h1>
+<div>
+<ol>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#1-kurulum">Kurulum</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#2-jsx-format%C4%B1">JSX Formatı</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#3-jsx-yazim-kurallari">JSX yazim kurallari</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#4-componentler">Componentler</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#5-props-kullanimi">Props kullanimi</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#6-bulma-css-k%C3%BCt%C3%BCphanesi">Bulma CSS kütüphanesi</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#7-usestate">UseState</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#8-useeffect">UseEffect</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#9-usecontext--context-api-mantigi">useContext / Context API Mantigi</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#10-learn-english-projesinin-context-api-ile-yapimi">learn-english Projesinin Context API ile Yapimi</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#11-usereducer">useReducer</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#12-usememo">useMemo</a></li>
+        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#13-usecallback">useCallback</a></li>
+    </ol>
+</div>
+
+<h2>1. Kurulum</h2><div>Yeni güncelleme ile "create react app" kısmı değişiyor.</div>
 <div>Proje açılışları (Vite kullanıldı):</div>
 <ol>
 <li>VS Code terminalden Vite'ı yükle:
