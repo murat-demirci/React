@@ -1,8 +1,8 @@
 
-<head><meta charset="utf-8"><link rel="stylesheet" href="./styles.css"></head><body class="light-theme blue_sky" style="padding: 20px;"><div class="shine-editor"><h1>React Notes</h1>
+<head><meta charset="utf-8">></head><body"><div class="shine-editor"><h1>React Notes</h1>
 <div>
 <ol>
-        <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#1-kurulum">Kurulum</a></li>
+        <li><a href="https://github.com/murat-demirci/React#1-kurulum">Kurulum</a></li>
         <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#2-jsx-format%C4%B1">JSX Formatı</a></li>
         <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#3-jsx-yazim-kurallari">JSX yazim kurallari</a></li>
         <li><a href="https://github.com/murat-demirci/React/edit/main/README.md#4-componentler">Componentler</a></li>
