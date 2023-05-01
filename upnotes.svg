@@ -4,14 +4,15 @@
             <style>
             h4 {
                 color: red;
+                animation: mymove 2s linear infinite;
             }
 
             @keyframes mymove {
                 from {
-                    color: red;
+                    color: #00A0E9;
                 }
                 to {
-                    color: yellow;
+                    color: white;
                 }
             }
             </style>
