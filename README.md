@@ -1,9 +1,8 @@
 
 
-<body class="light-theme blue_sky" style="padding: 20px;"><div class="shine-editor"><h1>React Notes</h1>
 
-<head><meta charset="utf-8"></head><body><div class="shine-editor"><h1>React Notes</h1>
-
+<body><div class="shine-editor"><h1>React Notes</h1>
+</br>
 <div>
 <ol>
         <li><a href="https://github.com/murat-demirci/React#1-kurulum">Kurulum</a></li>
