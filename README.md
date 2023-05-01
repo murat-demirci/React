@@ -1,9 +1,9 @@
 
-<<<<<<< HEAD
+
 <body class="light-theme blue_sky" style="padding: 20px;"><div class="shine-editor"><h1>React Notes</h1>
-=======
+
 <head><meta charset="utf-8">></head><body"><div class="shine-editor"><h1>React Notes</h1>
->>>>>>> 04771bdcfe82e5395c3cc5a68a74feabfdd0f963
+
 <div>
 <ol>
         <li><a href="https://github.com/murat-demirci/React#1-kurulum">Kurulum</a></li>
@@ -19,11 +19,9 @@
         <li><a href="https://github.com/murat-demirci/React#11-usereducer">useReducer</a></li>
         <li><a href="https://github.com/murat-demirci/React#12-usememo">useMemo</a></li>
         <li><a href="https://github.com/murat-demirci/React#13-usecallback">useCallback</a></li>
-<<<<<<< HEAD
         <li><a href="https://github.com/murat-demirci/React#14-useRef">useCallback</a></li>
         <li><a href="https://github.com/murat-demirci/React#15-useTransition">useCallback</a></li>
-=======
->>>>>>> 04771bdcfe82e5395c3cc5a68a74feabfdd0f963
+
     </ol>
 </div>
 
