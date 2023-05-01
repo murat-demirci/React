@@ -2,7 +2,7 @@
 
 
 <body><div class="shine-editor"><h1>React Notes</h1>
-        <a href="https://getupnote.com/share/notes/O51OWt1OmrWw8T0KkD8YC5Ajxnl1/672fc562-fdb1-4bae-9b32-d3c3622224b4"><img src="upnotes.svg" ></a>
+[<img src="UpNote.png">](https://getupnote.com/share/notes/O51OWt1OmrWw8T0KkD8YC5Ajxnl1/672fc562-fdb1-4bae-9b32-d3c3622224b4)
         
 </br>
 <div>
