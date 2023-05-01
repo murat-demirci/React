@@ -21,7 +21,6 @@
         <li><a href="https://github.com/murat-demirci/React#13-usecallback">useCallback</a></li>
         <li><a href="https://github.com/murat-demirci/React#14-useRef">useCallback</a></li>
         <li><a href="https://github.com/murat-demirci/React#15-useTransition">useCallback</a></li>
-
     </ol>
 </div>
 
