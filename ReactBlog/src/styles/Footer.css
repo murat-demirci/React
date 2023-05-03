@@ -1,0 +1,22 @@
+.footer{
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.social svg{
+    color: white;
+    margin: 20px;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.footer p{
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,26 @@
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.774);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main img{
+    margin-left: 5rem;
+}
+.main-link{
+    margin-right: 5rem;
+}
+.main-link a{
+    color: white;
+    text-decoration: none;
+    margin: 0 1.3rem;
+    
+}
+.main-link a.active{
+    color: rgb(0, 206, 233);
+    font-size: 18px;
+}
