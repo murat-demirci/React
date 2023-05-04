@@ -1,0 +1,56 @@
+.main-blog{
+    margin:10px 25%;
+}
+.main-blog h1{
+    text-align: center;
+    color:white;
+}
+.list-blog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin:3rem 0 ;
+}
+.card{
+    color:white;
+    width: 350px;
+    box-shadow:  0px 0px 30px 4px rgba(255, 255, 255, 0.274);
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5%;
+}
+.card-title{
+    width: 100%;
+    min-height: 20pc;
+    max-height: 30pc;
+}
+.card-title div{
+    width: 100%;
+    min-height: 15pc;
+    max-height: 20pc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20% 10% 20% 10%;
+}
+.card-title h3{
+    text-align: center;
+    font-size: 22px;
+    color:white;
+}
+.card-content p{
+    text-indent: 2rem;
+    line-break: anywhere;
+    line-height: 1.5rem;
+}
+.card-footer{
+    color:white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
