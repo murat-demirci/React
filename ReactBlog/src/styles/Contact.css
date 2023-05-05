@@ -1,0 +1,68 @@
+.main-contact{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.right-side{
+    display: flex;
+    align-self: center;
+    flex:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60vh;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 50%;
+}
+.left-side h1{
+    text-align: center;
+}
+.left-side form{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    padding: 30px;
+}
+.left-side form label{
+    margin: 10px 0;
+    color: rgb(0, 206, 233);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.left-side form input,.left-side form textarea{
+    border:none;
+    border-bottom: 1px solid grey;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-side form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 206, 233);
+    border-radius: 20px 20px 20px 20px;
+    background-color: transparent;
+    color: rgb(0, 206, 233);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    padding: 10px;
+}
+.left-side form button:hover{
+    background-color: rgb(0, 206, 233);
+    color: white;
+}
+.left-side form button svg{
+    margin-right: 5px;
+    rotate: 315deg;
+}
