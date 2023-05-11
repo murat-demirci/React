@@ -1,5 +1,17 @@
 import "./App.css";
-import LessonAppBar from "./components/LessonAppBar";
+import LessonAlert from "./components/LessonAlert";
+// import LessonList from "./components/LessonList";
+// import LessonToolTip from "./components/LessonToolTip";
+// import LessonAvatar from "./components/LessonAvatar";
+// import LessonBottomNavigation from "./components/LessonBottomNavigation";
+// import LessonSpeedDial from "./components/LessonSpeedDial";
+// import LessonBadge from "./components/LessonBadge";
+// import LessonDrawer from "./components/LessonDrawer";
+// import LessonBreadcrumbs from "./components/LessonBreadcrumbs";
+// import LessonLink from "./components/LessonLink";
+// import LessonPaper from "./components/LessonPaper";
+// import LessonImageList from "./components/LessonImageList";
+// import LessonAppBar from "./components/LessonAppBar";
 // import LessonAccordion from "./components/LessonAccordion";
 // import LessonCard from "./components/LessonCard";
 // import LessonGrid from "./components/LessonGrid";
@@ -33,7 +45,19 @@ function App() {
         {/* <LessonGrid/> */}
         {/* <LessonCard/> */}
         {/* <LessonAccordion/> */}
-        <LessonAppBar/>
+        {/* <LessonAppBar/> */}
+        {/* <LessonImageList/> */}
+        {/* <LessonPaper/> */}
+        {/* <LessonLink/> */}
+        {/* <LessonBreadcrumbs/> */}
+        {/* <LessonDrawer/> */}
+        {/* <LessonBadge/> */}
+        {/* <LessonSpeedDial/> */}
+        {/* <LessonBottomNavigation/> */}
+        {/* <LessonAvatar/> */}
+        {/* <LessonList/> */}
+        {/* <LessonToolTip/> */}
+        <LessonAlert/>
       </div>
   );
 }
