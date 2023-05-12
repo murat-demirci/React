@@ -1,5 +1,11 @@
 import "./App.css";
-import LessonAlert from "./components/LessonAlert";
+import LessonTable from "./components/LessonTable";
+// import LessonLoadingButton from "./components/LessonLoadingButton";
+// import LessonSkeleton from "./components/LessonSkeleton";
+// import LessonSpinner from "./components/LessonSpinner";
+// import LessonSnackbar from "./components/LessonSnackbar";
+// import LessonDialog from "./components/LessonDialog";
+// import LessonAlert from "./components/LessonAlert";
 // import LessonList from "./components/LessonList";
 // import LessonToolTip from "./components/LessonToolTip";
 // import LessonAvatar from "./components/LessonAvatar";
@@ -57,7 +63,13 @@ function App() {
         {/* <LessonAvatar/> */}
         {/* <LessonList/> */}
         {/* <LessonToolTip/> */}
-        <LessonAlert/>
+        {/* <LessonAlert/> */}
+        {/* <LessonDialog/> */}
+        {/* <LessonSnackbar/> */}
+        {/* <LessonSpinner/> */}
+        {/* <LessonSkeleton/> */}
+        {/* <LessonLoadingButton/> */}
+        <LessonTable/>
       </div>
   );
 }
