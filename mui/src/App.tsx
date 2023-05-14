@@ -1,5 +1,22 @@
 import "./App.css";
-import LessonTable from "./components/LessonTable";
+import { createTheme, colors, ThemeProvider } from "@mui/material";
+//lessonDefaultCustomize
+const theme = createTheme({
+  palette: {
+    secondary: {
+      main: colors.brown[500],
+    },
+  },
+
+});
+
+import { LessonThemeCustomize } from "./components/LessonThemeCustomize";
+//import { LessonTimeLine } from "./components/LessonTimeLine";
+//import { LessonMasonry } from "./components/LessonMasonry";
+//import { LessonTabs } from "./components/LessonTabs";
+//import { LessonDateRangePicker } from "./components/LessonDateRangePicker";
+// import LessonDateTimePicker from "./components/LessonDateTimePicker";
+// import LessonTable from "./components/LessonTable";
 // import LessonLoadingButton from "./components/LessonLoadingButton";
 // import LessonSkeleton from "./components/LessonSkeleton";
 // import LessonSpinner from "./components/LessonSpinner";
@@ -34,8 +51,8 @@ import LessonTable from "./components/LessonTable";
 // import OrnekRadioGroup from "./components/OrnekRadioGroup";
 
 function App() {
-
   return (
+    <ThemeProvider theme={theme}>
       <div>
         {/* <LessonTypography />
         <LessonButton />
@@ -69,8 +86,15 @@ function App() {
         {/* <LessonSpinner/> */}
         {/* <LessonSkeleton/> */}
         {/* <LessonLoadingButton/> */}
-        <LessonTable/>
+        {/* <LessonTable/> */}
+        {/* <LessonDateTimePicker/> */}
+        {/* <LessonDateRangePicker/> */}
+        {/* <LessonTabs/> */}
+        {/* <LessonMasonry/> */}
+        {/* <LessonTimeLine/> */}
+        <LessonThemeCustomize />
       </div>
+    </ThemeProvider>
   );
 }
 
