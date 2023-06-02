@@ -12,6 +12,7 @@ function App() {
   const getFirstTotal = ()=>{
     dispatch(setTotal())
   }
+  
   getFirstTotal();
   return (
     <>
