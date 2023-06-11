@@ -1,0 +1,12 @@
+.firstMain{
+    min-width: 100%;
+    height: calc(25vh - 80px);
+    background-color: red;
+    margin: 0;
+}
+.sliderMain{
+    min-width: 100%;
+    height: calc(100vh - (40vh - 80px));
+    background-color: blue;
+    margin: 0;
+}

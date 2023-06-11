@@ -1,0 +1,109 @@
+.navbarMain{
+    width: 100%;
+    height: 80px;
+    padding: 16px;
+}
+.navbarDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+color: red;
+}
+.navbarLeft{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.navbarLogoImage {
+    mix-blend-mode: multiply;
+}
+.navbarBrand{
+    font-weight: 600;
+    color: #cc0000;
+    letter-spacing: -1;
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.navbarRight{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbarButtonList{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+.navbarTextList{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.navbarTextList li{
+    min-width: 90px;
+    margin-left: 0px;
+    text-align: center;
+    color: #111111;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.navbarTextList li a:hover{
+text-decoration: underline black;    
+}
+.btnLogin{
+    display: inline-block;
+    border: 0;
+    border-radius: 24px;
+    color: white;
+    background-color: #e60023;
+    min-width: 60px;
+}
+.btnLogin:hover{
+    background-color: #ad081b;
+}
+.loginInner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    min-height: 40px;
+    padding: 0 12px;
+}
+.loginInnerText{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.btnRegister{
+    color: #111111;
+    background-color: #EFEFEF;
+    min-width: 60px;
+    display: inline-block;
+    border: 0;
+    border-radius: 24px;
+}
+.btnRegister:hover{
+    background-color: #e2e2e2;
+}
+.registerInner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    min-height: 40px;
+    padding: 0 12px;
+}
+.registerInnerText{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+}
