@@ -1,0 +1,10 @@
+.top{
+    width: 100%;
+    min-height: 92vh;
+
+}
+.topContent{
+    width: inherit;
+    min-height: inherit;
+    background-color: red;
+}
